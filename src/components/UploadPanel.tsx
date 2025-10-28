@@ -175,7 +175,7 @@ export function UploadPanel() {
                           {file.name}
                         </span>
                       </div>
-                      <div className="flex-shrink-0">
+                      <div className="shrink-0">
                         {file.status === "uploading" && (
                           <CircularProgress progress={file.progress} />
                         )}
